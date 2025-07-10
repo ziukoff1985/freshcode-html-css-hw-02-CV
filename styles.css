@@ -20,11 +20,6 @@ ul {
   padding: 0;
 }
 
-/* ul,
-ol {
-  list-style: none;
-} */
-
 a {
   text-decoration: none;
 }
@@ -33,6 +28,8 @@ img {
   max-width: 100%;
   display: block;
 }
+
+/* Custom styles */
 
 body {
   padding: 48px;
@@ -147,10 +144,6 @@ body {
   justify-content: space-between;
   padding: 0 144px;
 }
-
-/* .skills-list-item {
-  min-width: 150px;
-} */
 
 .skills-title {
   font-size: 24px;
