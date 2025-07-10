@@ -33,3 +33,133 @@ img {
   max-width: 100%;
   display: block;
 }
+
+body {
+  padding: 48px;
+  margin: 32px;
+  box-shadow: 0px 0px 34px 16px rgba(0, 0, 0, 0.75);
+}
+
+.main-title {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: rgb(0, 0, 123);
+}
+
+.major {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: rgb(0, 0, 123);
+}
+
+.contacts-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 16px;
+  margin-bottom: 24px;
+}
+
+.contacts-list-item {
+  min-width: 40%;
+}
+
+.contacts-link {
+  font-style: normal;
+}
+
+.contacts-link-span {
+  color: black;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.description {
+  margin-bottom: 24px;
+}
+
+.article-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: rgb(0, 0, 123);
+  border-bottom: 2px solid rgb(179, 179, 179);
+  padding-bottom: 2px;
+}
+
+.experience-section {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 16px;
+}
+
+.experience-period {
+  min-width: 120px;
+  font-weight: 700;
+}
+
+.job-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.job-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  line-height: 0.7;
+}
+
+.job-place {
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.job-description-list {
+  margin-left: 16px;
+  color: black;
+}
+
+.key-achievement {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(0, 0, 123);
+}
+
+.education-major {
+  color: rgb(0, 0, 123);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.skills-list-item {
+  min-width: 150px;
+}
+
+.skills-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(0, 0, 123);
+  margin-bottom: 8px;
+}
+
+.skills-tech {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 16px;
+  font-size: 18px;
+}
